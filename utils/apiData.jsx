@@ -1,6 +1,6 @@
 
-export const urlBackend = process.env.REACT_APP_API_URL;
-export const urlSocket = `${urlBackend}:3001`;
+export const urlBackend = "http://192.168.0.6";
+export const urlSocket = `${urlBackend}:3000`;
 export const urlApi = `${urlBackend}:3000/api`;
 export const urlUser = '/user';
 export const urlLinea = '/linea';

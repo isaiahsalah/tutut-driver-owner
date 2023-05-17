@@ -42,7 +42,16 @@ Estas son las aplicaciones que forman parte del sistema de movilidad urbana y mo
    npm install
    ```
 
-3. **Variables de Entorno**
+3. **Expo**
+
+   Instala expo-cli si no la tienes instalada:
+
+   ```sh
+   # Instala expo-cli en la interfaz de línea de comandos.
+   npm install --global expo-cli
+   ```
+
+4. **Variables de Entorno**
 
    Después de instalar las dependencias, puedes crear archivos de variables de entorno en la raíz del proyecto React. Para hacer esto, simplemente crea un archivo .env y define las variables de entorno necesarias, utilizando este formato:
 
@@ -51,7 +60,7 @@ Estas son las aplicaciones que forman parte del sistema de movilidad urbana y mo
    REACT_APP_API_URL="REACT_APP_API_URL"
    ```
 
-4. **Ejecutar**
+5. **Ejecutar**
 
    Una vez que hayas configurado tus variables de entorno, ejecuta este comando para iniciar la aplicación.
 
@@ -60,7 +69,7 @@ Estas son las aplicaciones que forman parte del sistema de movilidad urbana y mo
    expo start
    ```
 
-5. **Abrir**
+6. **Abrir**
 
    Abre tu emulador o descarga Expo Go en tu telefono movil [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&pli=1) o [IPhone](https://apps.apple.com/app/apple-store/id982107779) para ver tu app.
 
